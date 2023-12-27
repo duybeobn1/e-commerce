@@ -1,15 +1,15 @@
-import CategoriesItemKitchen from "./CategoriesItemKitchen";
+import CategoriesItemPiano from "./CategoriesItemPiano";
 import Footer from "../Footer";
 import Newsletter from "../Newsletter";
 
-function Kitchen() {
+function Piano() {
   return (
     <>
-      <CategoriesItemKitchen />
+      <CategoriesItemPiano />
       <Newsletter />
       <Footer />
     </>
   );
 }
 
-export default Kitchen;
+export default Piano;

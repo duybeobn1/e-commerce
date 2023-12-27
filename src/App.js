@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import All from "./components/Categories-pages/All";
-import Furnitures from "./components/Categories-pages/Furnitures";
+import Piano from "./components/Categories-pages/Piano";
 import Electronics from "./components/Categories-pages/Electronics";
 import Lamps from "./components/Categories-pages/Lamps";
-import Kitchen from "./components/Categories-pages/Kitchen";
+import Drum from "./components/Categories-pages/Drum";
 import ElectricGuitar from "./components/Categories-pages/ElectricGuitar";
 import GuitarString from "./components/Categories-pages/GuitarString";
 import ProductPage, { CartContext } from "./pages/ProductPage";
@@ -41,10 +41,10 @@ function App() {
 
         <Route path="categories" element={<Categories />}>
           <Route path="all" element={<All />} />
-          <Route path="furnitures" element={<Furnitures />} />
+          <Route path="piano" element={<Piano />} />
           <Route path="electronics" element={<Electronics />} />
           <Route path="lamps" element={<Lamps />} />
-          <Route path="kitchen" element={<Kitchen />} />
+          <Route path="drum" element={<Drum />} />
           <Route path="electric-guitar" element={<ElectricGuitar />} />
           <Route path="guitar-string" element={<GuitarString />} />
         </Route>

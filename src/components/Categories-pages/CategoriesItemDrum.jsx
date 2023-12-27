@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { items } from "../AllData";
 
 function CategoriesItem() {
-  const filteredItems = items.filter((item) => item.category === "kitchen");
+  const filteredItems = items.filter((item) => item.category === "drum");
   return (
     <>
       <div className="proud-container">
